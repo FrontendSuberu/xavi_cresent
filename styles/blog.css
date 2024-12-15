@@ -1,0 +1,90 @@
+.blog_header h1, .blog_header p{
+    color: black;
+    fill: black;
+}
+
+.blog_header .lhs svg{
+    fill: black;
+}
+
+.blog h1{
+    font-size: 60px;
+    margin-bottom: 8px;
+}
+
+
+.blogs ul{
+    padding-left: 0;
+    margin-bottom: 54px;
+    list-style: none;
+}
+
+
+.blogs ul li{
+    padding: 12px 4px;
+    border-bottom: 1px solid var(--main);
+}
+
+.blogs ul li a{
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Manrope', 'sans serif';
+    color: var(--main);
+    transition: all .2s linear;
+}
+
+.blogs ul li a:hover{
+    color: var(--gray);
+}
+
+
+
+.each_blog_intro{
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.each_blog_intro a{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-family: 'Manrope', 'sans serif';
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--main);
+}
+
+.each_blog_intro a svg{
+    width: 20px;
+    fill: black;
+}
+
+.each_blog_intro p{
+    font-family: 'Manrope', 'sans serif';
+    font-size: 18px;
+}
+
+.each_blog_intro h3{
+    font-size: 40px;
+
+}
+
+.each_blog_intro ol{
+    padding-top: 30px;
+}
+
+.each_blog_intro li{
+    padding-block: 12px;
+}
+
+.each_blog_intro p{
+   color: var(--main);
+}
+
+.each_blog_intro li{
+    font-size: 24px;
+}
+
+.each_blog_intro li p{
+    font-size: 18px;
+}

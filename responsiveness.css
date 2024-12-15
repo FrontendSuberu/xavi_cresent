@@ -1,0 +1,64 @@
+
+/* screenwise css */
+
+
+/* mobile first css snippet*/
+/* This responsive liabray was created by Screenwise Media Queries */
+
+.frame{
+    width: auto;/* used to make sure the container width is equal to that of the screen*/
+    padding-inline: 2vw;/*left and right spacing between the content and the container*/
+    margin: 0 auto;/*used to center the content on the screen*/
+    height: auto;
+    box-sizing: border-box;
+    /* border: 1px solid black;  */
+    /*used to test css optional..........*/
+      }
+      
+      @media (min-width:320px) {
+        .frame{
+          max-width: 100%;
+        }
+      }
+      
+      @media (min-width:475px) {
+        .frame{
+          max-width: 475px;
+        }
+      }
+      
+      @media (min-width:640px) {
+        .frame{
+          max-width: 640px;
+        }
+      }
+      
+      @media (min-width:768px) {
+        .frame{
+          max-width: 768px;
+        }
+      }
+      
+      @media (min-width:890px) {
+        .frame{
+          max-width: 890px;
+        }
+      }
+      
+      @media (min-width:1024px) {
+        .frame{
+          max-width: 1024px;
+        }
+      }
+      
+      @media (min-width:1240px) {
+        .frame{
+          max-width: 1240px;
+        }
+      }
+      
+      @media (min-width:1400px) {
+        .frame{
+          max-width: 1568px;
+        }
+      }

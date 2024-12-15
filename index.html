@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&display=swap"
+        rel="stylesheet">
+    <!-- javascript -->
+    <script defer src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="">
+    <script defer src="./advanced_anim'.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis"></script>
+
+</head>
+
+<body>
+
+
+    <div class="loader">
+        <h1>XAVI CRESENT</h1>
+    </div>
+
+    <main>
+        <section class="hero">
+
+            <div class=" frame">
+                <div class="video_overlay"></div>
+                <video class="bg_video" autoplay muted loop src="./video//bg.mp4"></video>
+
+
+                <header>
+                    <div class="inner_header">
+
+                        <!-- header cta's -->
+                        <div class="lhs">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path
+                                        d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z" />
+                                </svg>
+                                <p>Book now</p>
+                            </div>
+                        </div>
+
+                        <!-- logo -->
+                        <a href="./index.html" class="logo">
+                            <h1>Xavi cresent</h1>
+                        </a>
+
+                        <!-- menu field  -->
+                        <div>
+                            <div class="menu spring">
+                                <p>Menu</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </header>
+
+                <!-- header menu btn -->
+                 <div class="over_menu">
+                    <ul>
+                        <li><a href="./index.html" class="spring">Home</a></li>
+                        <li><a href="#about" class="spring">About</a></li>
+                        <li><a href="#services" class="spring">Services</a></li>
+                        <li><a href="./blog.html" class="spring">Blog</a></li>
+                    </ul>
+                 </div>
+
+                <div class="hero_text">
+                    <div id="text-section">
+                        <h1 class="text">WHERE TRADITION MEETS MODERN STYLE</h1>
+                        <p>
+                            Our mission is to provide exceptional grooming services in a relaxed and friendly manner.
+                            Making sure you're relaxed and looking at your best.
+                        </p>
+                        <div class="hero_text_cta spring">
+                            <a title="Services" class="hero_hero-cta" href="#">Book an Appointment</a>
+                        </div>
+                    </div>
+
+                    <div class="hero_cta" data-scroll-speed="-2">
+                        <div class="spring">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="services frame" id="services">
+            <p>REVEAL YOUR INNER BEAUTY</p>
+            <h1>SERVICES</h1>
+
+
+
+            <div class="services_gallery">
+
+                <!-- dynamic image viewer -->
+                <div class="modal" id="modal">
+                    <img id="modal-image" src="./images/barb.avif" alt="Modal Image">
+                </div>
+
+                <ul class="services_gallery_list">
+                    <li>
+                        <div>
+                            <p data-index="0" title="HAIR & BEARD" class="service_link">
+                                <span>HAIR & BEARD</span>
+                                <span>$80</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p data-index="1" title="COLOUR SERVICES" class="service_link">
+
+                                <span>COLOUR SERVICES</span>
+                                <span>$110</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p data-index="2" title="VIP EXPERIENCES" class="service_link">
+                                <span>VIP EXPERIENCES</span>
+                                <span>$320</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p data-index="3" title="HAIR PRODUCTS" class="service_link">
+                                <span>HAIR PRODUCTS</span>
+                                <span>$220</span>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="about frame" id="about">
+            <h1>ABOUT</h1>
+
+
+
+            <div class="about_hero">
+                <div class="about_img">
+                    <img src="./images/about.png" alt="">
+                </div>
+
+                <div>
+                    <p>Men's grooming requires a unique approach—one that isn't always found in traditional salons. At
+                        Xavi cresent, we’ve created a space just for men, offering expert haircuts, beard grooming, and
+                        hair coloring by our top barbers. Our decade-long dedication to excellence means you can trust
+                        us to deliver the look you want, every time.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="team frame">
+            <h1>MEET OUR EXPERTS</h1>
+
+            <p class="team_intro">Each member oo our team is committed to providing an exceptional grooming experience,
+                ensuring you leave
+                our shop stunning and feeling your best.</p>
+
+            <div class="team_members">
+                <div class="member">
+                    <div class="img_wrap">
+                        <img src="./images/john.jpeg" alt="">
+                    </div>
+
+                    <div class="member_info">
+                        <h3>John Smith</h3>
+                        <p>Master Barber</p>
+                    </div>
+                </div>
+
+                <div class="member">
+                    <div class="img_wrap">
+                        <img src="./images/mike.jpeg" alt="">
+                    </div>
+
+                    <div class="member_info">
+                        <h3>Mike Davies</h3>
+                        <p>Senior Stylist</p>
+                    </div>
+                </div>
+
+                <div class="member">
+                    <div class="img_wrap">
+                        <img src="./images/Nathan.jpeg" alt="">
+                    </div>
+
+                    <div class="member_info">
+                        <h3>Nathan Anderson</h3>
+                        <p>Barber</p>
+                    </div>
+                </div>
+
+                <div class="member">
+                    <div class="img_wrap">
+                        <img src="./images/Kevin.jpeg" alt="">
+                    </div>
+
+                    <div class="member_info">
+                        <h3>Kevin Morales</h3>
+                        <p>Barber</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contact frame">
+            <h1>CONTACT US</h1>
+
+
+            <p class="contact_hero">Feel free to contact us via our email <a title="Our Mail"
+                    href="mailto:info@nait.ca">[ NAIT ]</a> or directly via a call
+                <a title="Our Number" href="tel:123456789">+1 234 567 89</a>.
+            </p>
+
+
+
+            <form action="#" method="post">
+                <div class="name_info">
+                    <label for="firstname">
+                        <p>Firstname</p>
+                        <input type="text" name="firstname" required placeholder="John" id="">
+                    </label>
+
+                    <label for="lastname">
+                        <p>Lastname</p>
+                        <input type="text" name="lastname" required placeholder="Doe" id="">
+                    </label>
+                </div>
+
+
+                <label for="email">
+                    <p>Email</p>
+                    <input type="email" name="email" required placeholder="johndoe@gmail.com" id="">
+                </label>
+
+
+
+                <label for="phone">
+                    <p>Phone Number:</p>
+                    <input id="phone" type="tel" placeholder="1 234 567 89" name="phone">
+                </label>
+
+
+                <input type="submit" class="form_submit" value="Submit Form">
+                </div>
+            </form>
+        </section>
+
+
+        <section class="footer">
+            <div class="inner_footer frame">
+                <div class="footer_navs">
+                    <div class="footer_intro">
+                        <p>Don't be shy get groomed today</p>
+                    </div>
+
+
+                    <div class="quick_links">
+                        <p>Quick Links</p>
+                        <a href="./index.html">Home</a>
+                        <a href="#services">Services</a>
+                        <a href="#about">About</a>
+                        <a href="./blog.html">Blog</a>
+                    </div>
+
+                    <div class="quick_links">
+                        <p>Other Pages</p>
+                        <a href="./terms.html">Terms of Service</a>
+                        <a href="./policy.html">Data protection policies</a>
+                    </div>
+                </div>
+
+
+                <div class="footer_logo">XAVI CRESENT</div>
+
+
+                <p class="disclamer">DISCLAMER: The application was designed as a student project for Entrepreneurial
+                    Management (ENTR2262) at the Northern Alberta Institute of Technology. This is
+                    a conceptual project and is not intended for public use or interaction.</p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const lenis = new Lenis({
+            smooth: true,
+            duration: 1.2,
+            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)) // Custom easing
+        });
+
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+
+        requestAnimationFrame(raf);
+    </script>
+</body>
+
+</html>

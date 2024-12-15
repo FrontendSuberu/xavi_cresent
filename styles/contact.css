@@ -1,0 +1,57 @@
+.contact {
+  padding-block: 50px;
+}
+
+.contact_hero {
+  list-style: none;
+  line-height: 24px;
+  font-family: "Manrope", "sans serif";
+}
+
+.contact h1 {
+  font-size: 60px;
+  margin-block: 12px;
+}
+
+.contact form {
+  font-family: "Manrope", "sans serif";
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact input[type="tel"] {
+  padding: 12px;
+  border-radius: 12px;
+  width: 100%;
+  outline: none;
+  border: 2px solid var(--main);
+}
+
+.form_submit {
+  transition: all 0.3s linear;
+  background: var(--main);
+  color: white;
+  padding: 12px;
+  border: 1px solid black;
+  margin-top: 12px;
+  outline: none; 
+  border-radius: 14px;
+}
+
+.form_submit:hover{
+    background: white;
+    color: black;
+}
+
+/* media queries */
+@media (min-width: 768px) {
+  .name_info {
+    justify-content: space-between;
+    display: flex;
+    gap: 24px;
+  }
+
+  .contact label {
+    width: 100%;
+  }
+}
